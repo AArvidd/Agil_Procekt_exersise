@@ -1,0 +1,13 @@
+head {
+    text-align: center;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: gray;
+    width: 100%;
+    left: 0px;
+    
+}
