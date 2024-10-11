@@ -3,11 +3,26 @@ head {
 
 }
 
+.Meny {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px 100px;
+}
+
+article {
+    width: 550px;
+    background-color: greenyellow;
+    text-align: center;
+}
+
 footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0px;
     background-color: gray;
     width: 100%;
     left: 0px;
-    
+}
+
+img {
+    width: 500px;
 }
