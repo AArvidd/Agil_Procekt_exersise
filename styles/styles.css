@@ -4,23 +4,28 @@ head {
 }
 
 .Meny {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
 }
 
 article {
     width: 550px;
-    background-color: greenyellow;
     text-align: center;
 }
 
 footer {
-    /* position: absolute; */
     bottom: 0px;
     background-color: gray;
     width: 100%;
     left: 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 img {
